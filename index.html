@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html dir="rtl" class="light">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>سه هنر</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/58898a9045.js" crossorigin="anonymous"></script>
+        
+    </head>
+
+    
+    <body class="body">
+
+        <div class="container">
+
+            <header class="header darkmodescndbgcolor">
+
+                <div class="headertitle">     
+
+                     <ul class="header_title">
+
+                        <li><a href="#" class="homepagetext"><i class="mainicons fa-solid fa-house-chimney"></i> صفحه اصلی</a></li>
+                        <li><a href="#" class="servicetext"><i class="mainicons fa-solid fa-bell-concierge"></i> خدمات
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-left-down"><polyline points="14 15 9 20 4 15"></polyline><path d="M20 4h-7a4 4 0 0 0-4 4v12"></path></svg></a></li>
+                        <li><a href="#" class="schooltext"> <i class="mainicons fa-solid fa-graduation-cap"></i> آموزشگاه
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-left-down"><polyline points="14 15 9 20 4 15"></polyline><path d="M20 4h-7a4 4 0 0 0-4 4v12"></path></svg></a></li>
+                        <li><a href="#" class="aboutustext"><i class="mainicons fa-solid fa-address-card"></i> درباره ما</a></li>
+                    
+                    </ul>
+                </div>
+
+                <div class="header_toggle" >
+                    
+                    <button class="header_toggler" style="background-color: transparent; border: 0px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+
+                </div>
+
+                <div class="headernav darkmodescndbgcolor">
+
+                    <div class="headernav_image">
+
+                        <button class="header_toggler_close" style="border: none; background-color: transparent;"><i class="fa-solid fa-xmark darkmodeicons" style="font-size: 1.5rem;"></i></button>
+                        <a href="https:/3honar.ir"><img src="./Logo.png" width="80px" height="auto"></a>
+                        
+                    
+                    </div> 
+
+                    <div class="headernav_btns">
+
+                        <div class="nav_btns searchbtn">
+                            
+                            <button id="nav_searchopener"><i class="fa-solid fa-magnifying-glass" style="font-size: 1rem; color: #fff; padding: 0.5rem;"></i></button>
+                            <form action="action_page.php" style="width: 100%;">
+                                <input type="text" class="nav_searchbar darkmodetextcolor darkmodemainbgcolor" placeholder="به دنبال چه هستی ؟" name="search" style="font-weight: 700; width:80%;">
+
+                            </form>
+                        </div>
+
+                        <div class="darkmodebtn nav_btns">
+                            
+                            <button class="theme_btn light_mode_btn nav_btn" onclick="Lightmode_ON()"><i class="fa-solid fa-sun" style=" font-size: 1rem; color: #fff; padding: 0.5rem;"></i></button>
+                            <span class="darkmodetextcolor lightmodetext" style="font-weight: 700;">تم روشن</span>
+                            <button class="theme_btn dark_mode_btn nav_btn" onclick="Darkmode_ON()" ><i class="fa-solid fa-moon" style="font-size: 1rem; color: #fff; padding: 0.5rem;"></i></button>
+                            <span class="darkmodetext" style="font-weight: 700;">تم تاریک</span>
+                            
+
+                        </div>
+    
+                        
+    
+                       
+                        <div class="nav_btns marketbtn">
+                            <button class="nav_btn market_btn"><i class="fa-solid fa-cart-shopping" style="font-size: 1rem; color: #fff; padding: 0.5rem;"></i></button>
+                            <span class="darkmodetextcolor" style="font-weight: 700;">سبد خرید</span>
+                        
+                       
+                        </div>
+
+                        
+
+                    </div>
+
+                    <ul class="headernav_title">
+
+                        <li><a href="#" class="homepagetext"><i class="mainicons fa-solid fa-house-chimney"></i> صفحه اصلی</a></li>
+                        <li><a href="#" class="servicetext"><i class="mainicons fa-solid fa-bell-concierge"></i> خدمات
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-left-down"><polyline points="14 15 9 20 4 15"></polyline><path d="M20 4h-7a4 4 0 0 0-4 4v12"></path></svg></a></li>
+                        <li><a href="#" class="schooltext"> <i class="mainicons fa-solid fa-graduation-cap"></i> آموزشگاه
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-left-down"><polyline points="14 15 9 20 4 15"></polyline><path d="M20 4h-7a4 4 0 0 0-4 4v12"></path></svg></a></li>
+                        <li><a href="#" class="aboutustext"><i class="mainicons fa-solid fa-address-card"></i> درباره ما</a></li>
+                    
+                    </ul>
+
+
+                </div>
+                <div class="header_image">
+
+                    <a href="https:/3honar.ir"><img class="logo_image"src="./Logo.png" width="80px" height="auto"></a>
+                    
+                
+                </div> 
+                
+                 <div class="header_btns">
+
+                    <div class="darkmodebtn">
+
+                        <button title="فعال کردن تم روشن" class="theme_btn light_mode_btn" onclick="Lightmode_ON()"><i class="fa-solid fa-sun" style=" font-size: 1rem; color: #fff; padding: 0.5rem;"></i></button>
+                        <button title="فعال کردن تم تاریک" class="theme_btn dark_mode_btn" onclick="Darkmode_ON()"><i class="fa-solid fa-moon" style=" font-size: 1rem; color: #fff; padding: 0.5rem;"></i></button>
+
+                    </div>
+
+                    <div class="searchbtn">
+                        
+                        <button id="searchopener"><i class="fa-solid fa-magnifying-glass" style="font-size: 1rem; color: #fff; padding: 0.5rem;"></i></button>
+                        <div class="searchtype">
+                            <form action="action_page.php">
+        
+                                <input type="text" id="searchplace" class="darkmodescndbgcolor" placeholder="به دنبال چه هستی ؟" name="search">
+                        
+                            </form>
+                        </div>
+                    </div>
+
+                   
+                    <div class="marketbtn">
+                        <button class="market_btn"><i class="fa-solid fa-cart-shopping" style="font-size: 1rem; color: #fff; padding: 0.5rem;"></i>
+                    
+                   
+                    </div>
+
+                    <div class="phone_signin">
+                        
+                        <button style="background-color: transparent; border: 0px;"><i class="fa-solid fa-arrow-right-to-bracket" style="font-size: 1.5rem; margin-left: 2rem;"></i></button>
+                    
+                    </div>
+                
+                    <div class="log_btn">
+
+                        <a href="#">ورود<i class="fa-solid fa-right-to-bracket" style="margin-right: 0.2rem" ;></i></a>
+                    </div>
+                    <div class="sign_btn">
+                    
+                        <a href="#">ثبت نام<i class="fa-solid fa-user-plus" style="margin-right: 0.2rem; position: relative;top: 1px;" ></i></a>
+
+                    </div>
+                    
+                </div>
+                
+                
+            </header>
+            
+            <content class="content">
+                <div id="overlay"></div>
+                <section class="enterancesection">
+                    <div class="enterancetext">
+                    
+                        <h1 id="entranceh1" style="font-size: 3.5rem; font-family: yekan bakh fat; word-spacing: 0.2rem;"> دیگه دورانِ <br> پیدا کردن طراح گذشت! </h1>
+                        <p style="text-align: center; font-size: 1.5rem; color: var(--third-color); font-family: yekan bakh heavy; margin-top: 2rem">تو سه هنر یا خودت یاد میگیری و میسازیش یا ما برات میسازیم.</p>
+                       <hr style="margin-top: 2rem; border: none; height: 0.5px; background-color: var(--third-color);">    
+                        <p style=" font-size: 1.1rem; text-align: center; margin-top: 2rem; font-family: yekan bakh ; font-weight:700; color: var(--third-color)">تو سه هنر چه کار هایی انجام میدیم؟</p>
+
+                        
+                        <ul class="enteranceul">
+
+                                <li>
+                                    
+                                    <svg id="designicon" style="color: rgb(247, 111, 111)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                                    <span >طراحی وب سایت</span>
+
+                                </li>
+                                <li>
+                                    <svg id="photographicon" style="color: gray" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-camera-minus" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <circle cx="12" cy="13" r="3"></circle>
+                                        <path d="M5 7h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h3m9 6v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2"></path>
+                                        <line x1="15" y1="6" x2="21" y2="6"></line>
+                                     </svg>
+                                    <span>فیلم و عکاسی </span>
+                                </li>
+                                <li id="thirdlienterance">
+                                    <svg id="editicon" style="color: rgb(28, 163, 163)" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-edit" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"></path>
+                                        <path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z"></path>
+                                        <path d="M16 5l3 3"></path>
+                                     </svg>
+                                    <span>ادیت عکس و ویدئو</span>
+
+                                </li>
+                                <li>
+                                    <svg id="teachingicon" style="color: rgb(102, 112, 255);" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell-school" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <circle cx="10" cy="10" r="6"></circle>
+                                        <path d="M13.5 15h.5a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-1a2 2 0 0 1 2 -2h.5"></path>
+                                        <path d="M16 17a5.698 5.698 0 0 0 4.467 -7.932l-.467 -1.068"></path>
+                                        <path d="M10 10v.01"></path>
+                                        <circle cx="20" cy="8" r="1"></circle>
+                                     </svg>
+                                    <span>آموزش طراحی</span>
+
+                                </li>
+
+                        </ul>     
+                            
+                                 
+                    </div>
+
+                    <div class="enterancesvg">
+
+                        <img class= "enteranceimg" src="./Subject Laptop.png" alt="PersonWithLaptop">
+
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 24.08 62.37" style="enable-background:new 0 0 24.08 62.37;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:#FFFFFF;}
+                            .st1{fill:#57C8E8;}
+                            .st2{fill:#61E1FF;}
+                            .st3{fill:#4E280F;}
+                        </style>
+                        <g id="smoke">
+                            <path class="st0" d="M15.45,32.2c0,0-4.56-1.45-3.9-5.22c0.66-3.77,6.02-3.11,3.9-8.2s-6.48-3.04-6.48-3.04s-4.17,3.77,0.6,4.63
+                                c4.76,0.86-0.79-2.64-0.79-2.64s2.47-3.77,3.75,0.99s-9.3,9.92-9.3,9.92S5,37.23,15.45,32.2z"/>
+                            <path class="st0" d="M16.73,24.93c0,0-4.72,0.66-1.22,5.42c0,0,0.26-2.91,1.22-3.37C17.69,26.52,18.21,25.33,16.73,24.93z"/>
+                            <path class="st0" d="M18.31,27.25c0,0,0.13,3.1-1.91,5.86C14.52,35.68,21.42,34.6,18.31,27.25z"/>
+                        </g>
+                        <g id="Cup">
+                            <path class="st1" d="M1.71,39.03L5.4,60.36h11.82l1.16-4.12c0,0,0.53-4.54,3.8-8.45s-1.58-4.75-1.58-4.75l0.95-3.59
+                                C21.55,39.45,14.69,34.49,1.71,39.03z"/>
+                            <path class="st0" d="M21.14,46.04c-1.14,2.03-2.16,4.49-2.16,4.49s0.13-4.5,1.02-6.14C20,44.39,22.28,44.01,21.14,46.04z"/>
+                            <path class="st2" d="M1.71,39.03c0,0,13.5,6.51,9.58,13.54c0,0-6.4-0.28-5.88,7.78"/>
+                            <path class="st3" d="M21.07,39.74c0,0-13.89,1.19-18.45-0.33C2.62,39.41,12.93,34.98,21.07,39.74z"/>
+                            <path class="st0" d="M9.53,38.04c0,0-2.99,0.42-3.41,1c-0.43,0.57,2.81,0.75,2.93,0.75S3.69,39.26,9.53,38.04z"/>
+                            <path class="st0" d="M10.64,38.33c0,0-1.84,0.26-2.1,0.61c-0.26,0.35,1.73,0.46,1.8,0.46S7.05,39.08,10.64,38.33z"/>
+                        </g>
+                        </svg>
+          
+                    </div>
+
+                </section>
+                
+
+            </content>
+
+            <footer class="footer">
+                    
+                <section class="footer_top flex">
+                    <span class="logolinefooter"></span>
+                    <div class="footer_logo">
+                        <img class="logo_imageftr"src="./Logo.png" width="80px" height="auto">
+                        
+                    </div>
+                    <div class="hr_footer"><hr style="background-color: var(--forth-color); border: none; height: 0.5px;"></div>
+                    <ul class="listyle flex footer_ul">
+                        <li><a class="flex" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
+                        <li style="margin-left: 0;"><a class="flex" href="#"><svg style="position: relative;left: -1px; top: 1px;" width="20" height="20" viewBox="0 0 17 17" fill="none" stroke-width="5.5" xmlns="http://www.w3.org/2000/svg">
+                            <path  d="M7.13998 9.96507L8.8695 8.23767M7.13998 9.96507C5.87212 11.2337 0.538685 9.00354 1.49647 6.18315C2.45426 3.36275 12.943 -0.0813092 15.0632 2.04019C17.1834 4.16169 13.7258 14.6899 10.9196 15.6121C8.11337 16.5342 5.87212 11.2337 7.13998 9.96507Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></a></li>
+                    </ul>
+                </section>
+                <section class="footer_middle flex">
+                    <div class="right_footer">
+                        <div class="mrgnbtm"><h3  class="footerh"><i class="texticn"></i>خلاصه ای از سه هنر</h3></div>
+                        <div><p class="footerp">سه هنر در سال 1401 با تیم سه نفری شروع به کار کرد و همواره در تلاش است تا بهترین خدمات را به مشتریان خود ارائه دهد، در سه هنر خدمات متنوعی از جمله عکاسی و فیلمبرداری حرفه ای گرفته تا طراحی وبسایت برای ارائه وجود دارد.</p></div>
+                    </div class="mrgnbtm">
+                    <div class="middle_footer">
+                        <div class="mrgnbtm"><h3 class="footerh"><i class="texticn"></i>ارتباط و پشتیبانی</h3></div>
+                        <ul>
+                            <li class="mrgnbtmhlf flex">
+                                <span class="flex">
+                                    <span style="margin-left: 0.5rem;">
+                                        <svg width="16" height="16" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.5632 4.17184C15.4183 3.54105 15.2294 3.0782 15.0064 2.72729C14.2794 3.41662 13.3594 4.25301 12.3603 4.98727C10.9828 5.99965 9.61574 6.69415 8.50008 6.69415C7.38443 6.69415 6.01733 5.99965 4.63986 4.98727C3.64079 4.25301 2.72075 3.41662 1.99377 2.72729C1.77081 3.0782 1.58187 3.54105 1.437 4.17184C1.43013 4.20176 1.42338 4.23196 1.41675 4.26247C2.07618 4.86961 2.86033 5.55149 3.70121 6.1695C5.10702 7.2027 6.83246 8.18184 8.50008 8.18184C10.1677 8.18184 11.8931 7.2027 13.299 6.1695C14.1398 5.55149 14.924 4.86961 15.5834 4.26246C15.5768 4.23196 15.57 4.20176 15.5632 4.17184Z" fill="var(--forth-color)"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 13.6762 1.50025 15 8.5 15C15.4997 15 17 13.6762 17 7.5C17 1.32375 15.4997 0 8.5 0C1.50025 0 0 1.32375 0 7.5ZM8.5 13.75C6.7824 13.75 5.49884 13.6672 4.5262 13.4764C3.56964 13.2889 3.0028 13.0139 2.62683 12.6822C2.25086 12.3505 1.9393 11.8503 1.72671 11.0063C1.51055 10.1481 1.41667 9.01553 1.41667 7.5C1.41667 5.98447 1.51055 4.85192 1.72671 3.99371C1.9393 3.14968 2.25086 2.64953 2.62683 2.31779C3.0028 1.98605 3.56964 1.71115 4.5262 1.52357C5.49884 1.33284 6.7824 1.25 8.5 1.25C10.2176 1.25 11.5012 1.33284 12.4738 1.52357C13.4304 1.71115 13.9972 1.98605 14.3732 2.31779C14.7491 2.64953 15.0607 3.14968 15.2733 3.99371C15.4895 4.85192 15.5833 5.98447 15.5833 7.5C15.5833 9.01553 15.4895 10.1481 15.2733 11.0063C15.0607 11.8503 14.7491 12.3505 14.3732 12.6822C13.9972 13.0139 13.4304 13.2889 12.4738 13.4764C11.5012 13.6672 10.2176 13.75 8.5 13.75Z" fill="var(--forth-color)"></path>
+                                        </svg></span>
+                                    <span class="fontweight">ایمیل:</span>
+                                </span>
+                                <a class="fontweight" href="#">3honar@gmail.com</a>
+                            </li>
+                            <li class="mrgnbtmhlf flex">
+                                <span class="flex">
+                                    <span style="margin-left: 0.5rem;"><svg style="position: relative;left: -1px; top: 1px;" width="16" height="16" viewBox="0 0 17 17" fill="none" stroke-width="5.5" xmlns="http://www.w3.org/2000/svg">
+                                        <path  d="M7.13998 9.96507L8.8695 8.23767M7.13998 9.96507C5.87212 11.2337 0.538685 9.00354 1.49647 6.18315C2.45426 3.36275 12.943 -0.0813092 15.0632 2.04019C17.1834 4.16169 13.7258 14.6899 10.9196 15.6121C8.11337 16.5342 5.87212 11.2337 7.13998 9.96507Z" stroke="var(--forth-color)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg></span>
+                                    <span class="fontweight">تلگرام:</span>
+                                </span>
+                                <a href="#" class="ltr fontweight">@3honar_support</a>
+                            </li>
+                            <li>
+                                <span class="flex">
+                                    <span style="margin-left: 0.5rem;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--forth-color)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+                                    <span class="fontweight">شماره تماس:</span>
+                                </span>
+                                <a class="fontweight" href="tel:0900000000">09000000000</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left_footer">
+                        <div class="mrgnbtm">
+                            <h3 class="footerh"><i class="texticn"></i>نظرات و پیشنهادات</h3>
+                        </div>
+                        <div class="mrgnbtm">
+                            <p class="footerp">اگر انتقاد و یا درخواستی دارید در کادر زیر ارسال کنید.</p>
+                        </div>
+                        <div style="display: flex;align-items: center;justify-content: space-between; ">
+                            <form class="fterfrmfrst" action="php">
+                                <input class="footercomment" type="text" name="Thoughts" placeholder="جمله ای کوتاه بنویسید...">
+                               <button type="submit" class="footercmntbtn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-left-line" width="17" height="17" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h6v6h-6z"></path>
+                                <path d="M21 15v-6"></path>
+                             </svg>ارسال</button> 
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <section class="footer_bottom">
+                    <span class="textlinefooter"></span>
+                    <div class="copyrighttext"><p>کليه حقوق محتوای اين سایت متعلق به سه هنر می باشد و هر گونه کپی برداری از محتوای سایت غیر مجاز و پیگرد قانونی دارد.</p></div>
+                </section>
+            </footer>
+        </div>
+
+
+        <script src="./Javascript.js"></script>
+
+    </body>
+
+
+</html>
